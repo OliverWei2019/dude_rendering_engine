@@ -7,7 +7,7 @@ if(DEFINED ENV{VCPKG_DEFAULT_TRIPLET} AND NOT DEFINED VCPKG_TARGET_TRIPLET)
     set(VCPKG_TARGET_TRIPLET "$ENV{VCPKG_DEFAULT_TRIPLET}" CACHE STRING "")
 endif()
 
-project ("vulkan_guide")
+project ("vulkan_engine")
 
 
 find_package(Vulkan REQUIRED)
@@ -18,7 +18,7 @@ set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
  
 add_subdirectory(assetlib)
 add_subdirectory(asset-baker)
-add_subdirectory(extra-engine)
+add_subdirectory(dudu_engine)
 if (${CMAKE_HOST_SYSTEM_PROCESSOR} STREQUAL "AMD64")
   set(GLSL_VALIDATOR "$ENV{VULKAN_SDK}/Bin/glslangValidator.exe")
 else()
