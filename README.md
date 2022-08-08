@@ -1,7 +1,7 @@
 # dudu_rendering_engine
 
 这是一个GPU Driven Rendering引擎的demo.
-主体框架来自于[vkguide](https://vkguide.dev)的extra—engine，我做了一些修改修复了bug.
+主体框架来自于[vkguide](https://vkguide.dev)的extra—engine，我做了一些修改修复了bug.  
 这还是一块需要雕琢的石头 :grin:  
 
 ![Sponza](./Sponza.PNG)
