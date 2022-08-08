@@ -51,6 +51,8 @@ texture有基本的.png,.jpg, 模型有gltf和fbx
 texture全部生成.tx格式，材质material生成.MAT格式，网格生成.MESH格式
 #### 制作过程
 直接编译asset-main.cpp文件注意，这里需要一些库:: assimp,tinyGLTF,nvtt......,其中nvtt库生成可能会报错，然后需要手动将nvtt.dll库放到baker.exe文件旁。
+**注意:** assimp库必须先由vcpkg导入，nvtt库需要手动制作nvtt.dll，制作nvtt.dll不要使用Cmake,直接进入nvtt库文件夹下找到.sln文件编译，编译会报错，但能够生成复合本项目要求的nvtt.dll.  
+
 baker.exe会出现在新建的bin文件夹下
 #### 生成资产
 baker..exe需要nvtt.dll库，请将nvtt.dll库放到baker.exe同一目录
