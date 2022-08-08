@@ -15,7 +15,7 @@
 ## 间接绘制和Bindless
 #### 间接绘制 vkCmdIndirectDraw(...)
 减少直接的drawCall，能交给GPU的统统交给GPU.在GPU的缓冲区中存放好命令，把参数和数据提前放在一个大SSBO中，计算着色器执行的时候去调用。
-#### Bindless
+#### **Bindless**
 bind越少越好，BindVertexBuffer、BindIndexBuffer、BindPipeline 和 BindDescriptorSet 调用会让CPU慢下来，效率不高.
 
 </p>
@@ -59,6 +59,7 @@ cmd 打开 baker.exed的目录，将存放gltf或者fbx模型的文件夹复制�
 </p>
 </details>
 
+##
 <details><summary>assetlib</summary>
 <p>
 
@@ -95,6 +96,7 @@ struct TextureInfo {
  </p>
  </details>
  
+ ##
 <details><summary>assets</summary>
 <p>
 
@@ -104,7 +106,8 @@ struct TextureInfo {
  </p>
  </details>
  
- <details><summary>extra—engine</summary>
+ ##
+ <details><summary>dudu—engine</summary>
  <p>
  
 ## dudu-engine
@@ -134,6 +137,7 @@ struct TextureInfo {
 </p>
 </details>
 
+##
 <details><summary>libs</summary>
 <p>
 
@@ -144,6 +148,7 @@ struct TextureInfo {
 </p>
 </details>
 
+##
 <details><summary>shaders</summary>
 <p>
 
