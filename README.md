@@ -18,6 +18,11 @@
 #### **Bindless**
 bind越少越好，BindVertexBuffer、BindIndexBuffer、BindPipeline 和 BindDescriptorSet 调用会让CPU慢下来，效率不高.
 
+#### 代码上游依赖
+我是用部分我之前写的封装(:grin:其实偷了很多大佬的封装:grimacing:)。
+[Vulkan_Start_Point]().   
+[VK_API_ENCA]().   
+	
 </p>
 
 </details>
